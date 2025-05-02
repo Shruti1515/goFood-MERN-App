@@ -1,0 +1,24 @@
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: transparent !important;
+  outline: none;
+}
+#carousel-image {
+  max-height: 500px;
+}
+
+.carousel-inner,
+.carousel-item {
+  height: 60vh; /* Responsive height based on viewport */
+}
+
+.carousel-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover; /* Keeps image covered without distortion */
+  filter: brightness(30%);
+}
+.carousel-caption{
+  background-color: black;
+  
+}

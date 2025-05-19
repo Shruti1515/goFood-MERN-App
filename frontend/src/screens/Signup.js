@@ -14,7 +14,7 @@ export const Signup = () => {
     const handleSubmit =  ( async(e)=>{
         e.preventDefault();
         console.log(JSON.stringify({name:credential.name, email:credential.email, password:credential.password,location:credential.Geolocation}))
-        const response = await fetch('http://localhost:5000/api/createUser', {
+        const response = await fetch('https://gofood-mern-app-srq9.onrender.com/api/createUser', {
             method:'POST',
             headers:{
                 'Content-Type': 'application/json'

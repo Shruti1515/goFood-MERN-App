@@ -10,7 +10,7 @@ const port = process.env.PORT || 3000;
 mongorun();
 
 app.use((req,res,next)=>{
-  res.setHeader("Access-Control-Allow-Origin","https://gofood-mern-app-srq9.onrender.com");
+  res.setHeader("Access-Control-Allow-Origin","http://localhost:3000");
   res.header(
     "Access-Control-Allow-Headers",
     "Origin, X-Requested_With, Content-Type, Accept"
